@@ -4,6 +4,7 @@ import NavPage from './navbarPage/NavPage';
 function NavBar() {
     //using state to keep track if menu was opened
     const [open, setOpen] = useState(false);
+    //using this to set menu to false initially
     useEffect(()=>{
         setOpen(false)
     },[])
@@ -18,7 +19,7 @@ function NavBar() {
                 <span className='navbar__line'></span>
                 <span className='navbar__line'></span>
             </div>
-            {
+            {//Conditional rendering
                     open? <NavPage close={setOpen}/>:null
                 }
         </div>
