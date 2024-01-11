@@ -1,0 +1,22 @@
+.footer{
+    color: white;
+}
+.footer__title{
+    font-size: 6rem;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.footer__icons{
+    margin-top: 1rem;
+    color: rgb(230, 238, 9);
+}
+.footer__icons > .MuiSvgIcon-root{
+    margin: 1rem;
+}
+.footer__text span{
+    border-bottom: 1px solid rgb(230, 238, 9);
+    margin-left: 2px;
+}
+/* .footer__text p{
+    display: inline-block;
+} */
