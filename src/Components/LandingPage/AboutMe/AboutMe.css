@@ -1,0 +1,115 @@
+.aboutme{
+    background-color: black;
+    color: white;
+}
+.aboutme__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.aboutme__titlecolumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    /* flex: 1; */
+    /* background-color: red; */
+}
+.aboutme__textcolumn{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    /* flex: 1; */
+    text-align: left;
+    /* background-color: blue; */
+}
+.aboutme__expandBtn p{
+    border-bottom: 2px solid rgb(230, 238, 9);
+    color: rgb(230, 238, 9);
+    margin: 3rem 0;
+    width: fit-content;
+    font-family: 'Bebas Neue', sans-serif;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.aboutme__expandBtn p:hover{
+    transform: scale(1.1);
+}
+
+/*Responsive elements*/
+@media only screen and (max-width: 600px) {
+    .aboutme__textcolumn, .aboutme__titlecolumn{
+        padding: 1rem;
+    }
+    .aboutme__titlecolumn div{
+        font-size: 6rem;
+        /* font-weight: bold; */
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .aboutme__textBig{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .aboutme__textcolumn, .aboutme__titlecolumn{
+        padding: 1rem;
+    }
+    .aboutme__titlecolumn div{
+        font-size: 6rem;
+        /* font-weight: bold; */
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .aboutme__textBig{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .aboutme__textcolumn, .aboutme__titlecolumn{
+        padding: 1rem;
+    }
+    .aboutme__titlecolumn div{
+        font-size: 6rem;
+        /* font-weight: bold; */
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .aboutme__textBig{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .aboutme__textcolumn, .aboutme__titlecolumn{
+        flex: 1;
+    }
+    .aboutme__titlecolumn div{
+        font-size: 6rem;
+        /* font-weight: bold; */
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .aboutme__textBig{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .aboutme__textcolumn, .aboutme__titlecolumn{
+        flex: 1;
+    }
+    .aboutme__titlecolumn div{
+        font-size: 6rem;
+        /* font-weight: bold; */
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .aboutme__textBig{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+}
