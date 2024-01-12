@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: row;
     flex-basis: 100%;
+    overflow: hidden;
 }
 
 .projectcomponent__infoColumn {
@@ -34,6 +35,10 @@
     width: 98%;
     height: 100%;
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+.projectcomponent__imgBackground img:hover{
+    transform: scale(1.2);
 }
 
 .projectcomponent__dots span {
