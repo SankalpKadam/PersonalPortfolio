@@ -1,0 +1,60 @@
+.workexp__Role{
+    color: rgb(230, 238, 9);
+    font-family: 'Bebas Neue', sans-serif;
+}
+.workexp__Name{
+    font-style: italic;
+}
+/*Responsive elements*/
+@media only screen and (max-width: 600px) {
+    .workexp__Role{
+        font-size: 2rem;
+    }
+    .workexp{
+        margin-top: 1rem;
+        padding-right: 2rem;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .workexp__Role{
+        font-size: 2rem;
+    }
+    .workexp{
+        margin-top: 1rem;
+        padding-right: 2rem;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .workexp__Role{
+        font-size: 2rem;
+    }
+    .workexp{
+        margin-top: 1rem;
+        padding-right: 2rem;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .workexp__Role{
+        font-size: 2rem;
+    }
+    .workexp{
+        margin-top: 1rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .workexp__Role{
+        font-size: 2rem;
+    }
+    .workexp{
+        margin-top: 1rem;
+        padding-right: 2rem;
+    }
+}

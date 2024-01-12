@@ -1,0 +1,96 @@
+.universitydata__name{
+    color: rgb(230, 238, 9);
+    font-family: 'Bebas Neue',sans-serif;
+}
+.universitydata__gpa{
+    font-style: italic;
+}
+.universitydata__gpa span,.universitydata__graduating span{
+    font-weight: bolder;
+}
+.universitydata__degree{
+    font-weight: normal;
+    font-family: 'Bebas Neue',sans-serif;
+}
+.universitydata__graduating{
+    font-style: italic;
+}
+
+/*Responsive elements*/
+@media only screen and (max-width: 600px) {
+    .universitydata__name{
+        font-size: 1.5rem;
+    }
+    .universitydata{
+        width: 100%;
+        text-align: center;
+    }
+    .universitydata__degree{
+        font-size: 20px;
+    }
+    .universitydata{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .universitydata__name{
+        font-size: 1.5rem;
+    }
+    .universitydata{
+        width: 100%;
+        text-align: center;
+    }
+    .universitydata__degree{
+        font-size: 20px;
+    }
+    .universitydata{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .universitydata__name{
+        font-size: 1.5rem;
+    }
+    .universitydata{
+        width: 100%;
+        text-align: left;
+    }
+    .universitydata__degree{
+        font-size: 20px;
+    }
+    .universitydata{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .universitydata__name{
+        font-size: 1.5rem;
+    }
+    .universitydata{
+        width: 50%;
+    }
+    .universitydata__degree{
+        font-size: 20px;
+    }
+    .universitydata{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .universitydata__name{
+        font-size: 2rem;
+    }
+    .universitydata{
+        width: 50%;
+    }
+    .universitydata__degree{
+        font-size: 25px;
+    }
+    .universitydata{
+        margin-top: 1rem;
+    }
+}

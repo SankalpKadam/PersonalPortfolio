@@ -1,0 +1,184 @@
+.aboutpage{
+    color: white;
+    margin-top: 2rem;
+}
+.aboutpage__title, .aboutpage__education, .aboutpage__experience, .aboutpage__techstack{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+.aboutpage__image {
+    vertical-align: middle;
+    filter: grayscale(1.2);
+    object-fit: cover;
+}
+.aboutpage__educationData{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.aboutpage__techIcons{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.aboutpage__techIcons img{
+    margin: .5rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+
+/*Responsive elements*/
+@media only screen and (max-width: 600px) {
+    .aboutpage__pageTitle, .aboutpage__educationTitle, .aboutpage__expTitle, .aboutpage__techTitle{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutpage__techIcons{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .aboutpage__expData{
+        flex-wrap: nowrap;
+        width: 80%;
+    }
+    .aboutpage__myInfo{
+        padding: 0 2rem;
+        text-align: left;
+    }
+    .aboutpage__myInfo span{
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: rgb(230, 238, 9);
+    }
+    .aboutpage__image{
+        width: 80%;
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .aboutpage__pageTitle, .aboutpage__educationTitle, .aboutpage__expTitle, .aboutpage__techTitle{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutpage__techIcons{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .aboutpage__educationData, .aboutpage__expData{
+        flex-wrap: nowrap;
+        width: 90%;
+    }
+    .aboutpage__myInfo{
+        padding: 0 2rem;
+        text-align: left;
+    }
+    .aboutpage__myInfo span{
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: rgb(230, 238, 9);
+    }
+    .aboutpage__image{
+        width: 50%;
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .aboutpage__pageTitle, .aboutpage__educationTitle, .aboutpage__expTitle, .aboutpage__techTitle{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutpage__techIcons{
+        flex-wrap: wrap;
+        width: 95%;
+    }
+    .aboutpage__educationData, .aboutpage__expData{
+        flex-wrap: nowrap;
+        width: 90%;
+    }
+    .aboutpage__myInfo{
+        padding: 0 2rem;
+        text-align: left;
+    }
+    .aboutpage__myInfo span{
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: rgb(230, 238, 9);
+    }
+    .aboutpage__image{
+        width: 50%;
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .aboutpage__pageTitle, .aboutpage__educationTitle, .aboutpage__expTitle, .aboutpage__techTitle{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 6rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutpage__myInfo, .aboutpage__educationData, .aboutpage__expData, .aboutpage__techIcons{
+        flex: 1;
+        text-align: left;
+    }
+    .aboutpage__myInfo span{
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: rgb(230, 238, 9);
+    }
+    .aboutpage__image{
+        width: 50%;
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .aboutpage__pageTitle, .aboutpage__educationTitle, .aboutpage__expTitle, .aboutpage__techTitle{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 6rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutpage__myInfo, .aboutpage__educationData, .aboutpage__expData, .aboutpage__techIcons{
+        flex: 1;
+        text-align: left;
+    }
+    .aboutpage__myInfo span{
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: rgb(230, 238, 9);
+    }
+    .aboutpage__image{
+        width: 50%;
+        height: 60%;
+    }
+}
