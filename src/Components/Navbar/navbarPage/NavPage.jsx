@@ -15,6 +15,11 @@ function NavPage({ close }) {
                 </div>
                 <div className='navpage__menuItem'>
                     <span className='navpage__itemText'>
+                        <Link to={"/"} className='menuitem'>Home</Link>
+                    </span>
+                </div>
+                <div className='navpage__menuItem'>
+                    <span className='navpage__itemText'>
                         <Link to={"/projectsarchive"} className='menuitem'>Projects</Link>
                     </span>
                 </div>
@@ -32,7 +37,8 @@ function NavPage({ close }) {
                 <div className='navpage__menuItem'>
                     <span className='navpage__itemText'>
 
-                        Contact
+                    <Link to={"/contact"} className='menuitem'>Contact</Link>
+
                     </span>
                 </div>
             </div>
