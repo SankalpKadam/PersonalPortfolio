@@ -1,6 +1,6 @@
 .aboutpage{
     color: white;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 .aboutpage__title, .aboutpage__education, .aboutpage__experience, .aboutpage__techstack{
     display: flex;

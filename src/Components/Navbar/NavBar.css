@@ -5,6 +5,7 @@
     justify-content: space-between;
     height: 2rem;
     padding: 1rem;
+    align-items: normal;
 }
 .navbar__logo{
     flex-grow: 0.5;
