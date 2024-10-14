@@ -1,0 +1,45 @@
+.banner {
+    color: white;
+    max-width: 1200px;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.banner__greeting {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.banner__name{
+    font-size: 8rem;
+    line-height: 8rem;
+}
+
+.banner__title{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 60%;
+    margin-bottom: 2%;
+}
+.banner__title> p{
+    line-height: 3rem;
+    margin-top: 2%;
+
+}
+.banner__title >p> span{
+    color: gray;
+    margin-left: 1%;
+}
+.banner__subheadings{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: gray;
+    font-size: 1.5rem;
+    margin: 0.3% 0;;
+}

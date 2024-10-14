@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
+import Banner from './components/Banner/Banner';
 function App() {
   return (
     
@@ -13,6 +14,7 @@ function App() {
       <Route path="/contact" element={<ContactPage />}/>
     </Routes> */}
       <Navbar/>
+      <Banner/>
       {/* <ProjectPage /> */}
       {/* <AboutPage/> */}
       {/* <HomePage/> */}
